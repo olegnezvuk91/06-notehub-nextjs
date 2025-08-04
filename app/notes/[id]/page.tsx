@@ -4,7 +4,7 @@ import {
   QueryClient,
   dehydrate,
 } from '@tanstack/react-query';
-import NotesDetailsClient from './NotesDetails.client';
+import NotesDetailsClient from './NoteDetails.client';
 
 type NoteDetailsProps = {
   params: Promise<{ id: string }>;
