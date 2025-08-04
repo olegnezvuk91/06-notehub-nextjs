@@ -15,7 +15,7 @@ import Loader from '@/components/Loader/Loader';
 import ErrorMessage from '@/components/ErrorMessage/ErrorMessage';
 import { Toaster } from 'react-hot-toast';
 import NoteForm from '@/components/NoteForm/NoteForm';
-import Modal from '@/components/NoteModal/NoteModal';
+import Modal from '@/components/Modal/Modal';
 
 import type { FetchNotesRes } from '@/lib/api';
 
